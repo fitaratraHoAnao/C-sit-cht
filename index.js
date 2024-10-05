@@ -5,7 +5,7 @@ const app = express();
 // Dossier public pour les fichiers statiques
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Servir le fichier HTML à la route de base "/"
+// Servir la page HTML à la route de base "/"
 app.get('/chatbot', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'chatbot.html'));
 });
