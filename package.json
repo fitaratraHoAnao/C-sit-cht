@@ -1,14 +1,12 @@
 {
-  "name": "chatbot-equation-second-degre",
+  "name": "chatbot-quadratique",
   "version": "1.0.0",
-  "description": "Chatbot résolvant des équations du second degré en utilisant une API",
+  "description": "Un chatbot pour résoudre des équations du second degré.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Votre Nom",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.17.1"
   }
 }
